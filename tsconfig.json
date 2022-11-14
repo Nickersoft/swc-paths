@@ -1,0 +1,23 @@
+{
+  "include": ["./*.ts", "src/main.ts"],
+  "compilerOptions": {
+    "module": "ES2020",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2020",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "noImplicitOverride": true,
+    "importsNotUsedAsValues": "error",
+    "typeRoots": ["./node_modules/@types", "./@types"],
+    "lib": ["ES2020", "DOM"],
+    "incremental": true,
+    "skipLibCheck": true
+  }
+}
